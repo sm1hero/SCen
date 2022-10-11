@@ -1,7 +1,7 @@
-function connectFireBase() {
-    import { initializeApp } from "https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js";
-    import { getFirestore } from "https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js";
+import { initializeApp } from "https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js";
+import { getFirestore } from "https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js";
 
+function connectFireBase() {
     const firebaseConfig = {
         apiKey: "AIzaSyAUMnjrvqFEwxSd5NdoQ1Gy88vbrFrLxl4",
         authDomain: "scen-85df9.firebaseapp.com",
