@@ -1,0 +1,23 @@
+{
+  "name": "SCen",
+  "version": "1.1",
+  "description": "add content",
+
+  "permissions": [
+    "activeTab"
+  ],
+
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["https://*/*"],
+      "js": ["content.js"]
+    }
+  ],
+  
+  "manifest_version": 2
+}
